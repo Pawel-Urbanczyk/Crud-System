@@ -1,4 +1,10 @@
 <?php
+ob_start();
+
+if(!isset($_SESSION)){
+    session_start();
+}
+
 	$server = 'localhost';
 	$user = 'root';
 	$password = '';
