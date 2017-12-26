@@ -18,6 +18,7 @@
                 <label for="email" class="col-sm-2">Email: </label>
                 <div class="col-sm-10">
                     <input type="email" name="email" id="email" class="form-control">
+                    <span id="erroremail"></span>
                 </div>
             </div>
 
@@ -26,6 +27,7 @@
                 <label for="firstname" class="col-sm-2">First name: </label>
                 <div class="col-sm-10">
                     <input type="text" name="firstname" id="firstname" class="form-control">
+                    <span id="errorfirstname"></span>
                 </div>
             </div>
 
@@ -34,6 +36,7 @@
                 <label for="lastname" class="col-sm-2">Last name: </label>
                 <div class="col-sm-10">
                     <input type="text" name="lastname" id="lastname" class="form-control">
+                    <span id="errorlastname"></span>
                 </div>
             </div>
 
@@ -42,11 +45,12 @@
                 <label for="password" class="col-sm-2">Password: </label>
                 <div class="col-sm-10">
                     <input type="password" name="password" id="password" class="form-control">
+                    <span id="errorpassword"></span>
                 </div>
             </div>
 
             <!--Submit-->
-            <div class="col-xs-12 form-group">
+            <div class="col-xs-12 form-group" style="margin: 0px 10px 20px 10px;">
                 <input type="submit" name="submit" id="submit" class="form-control btn-primary" value="Send">
             </div>
         </form>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Crud System</title>
-    <!--Bootstrap links start-->
+<!--Bootstrap links start-->
 
     <!--jQuery-->
     <script	src="js/jquery.js"></script>
@@ -19,8 +19,9 @@
     <!--Latest compiled and minified JavaScript-->
     <script src="js/bootstrap.js"></script>
 
+<!--Bootstrap links end-->
 
-    <!--Bootstrap links end-->
+    <script src="js/reg.js"></script>
 
 </head>
 <body>
