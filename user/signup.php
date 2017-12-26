@@ -14,33 +14,33 @@
 
         <form action="" method="post" class="form-horizontal">
             <!--Email-->
-            <div class="row form-group input-group">
-                <label for="email" class="col-sm-4">Email: </label>
-                <div class="col-sm-8">
+            <div class="row form-group input-group col-sm-12">
+                <label for="email" class="col-sm-2">Email: </label>
+                <div class="col-sm-10">
                     <input type="email" name="email" id="email" class="form-control">
                 </div>
             </div>
 
             <!--First name-->
-            <div class="row form-group input-group">
-                <label for="firstname" class="col-sm-4">First name: </label>
-                <div class="col-sm-8">
+            <div class="row form-group input-group col-sm-12">
+                <label for="firstname" class="col-sm-2">First name: </label>
+                <div class="col-sm-10">
                     <input type="text" name="firstname" id="firstname" class="form-control">
                 </div>
             </div>
 
             <!--Last name-->
-            <div class="row form-group input-group">
-                <label for="lastname" class="col-sm-4">Last name: </label>
-                <div class="col-sm-8">
+            <div class="row form-group input-group col-sm-12">
+                <label for="lastname" class="col-sm-2">Last name: </label>
+                <div class="col-sm-10">
                     <input type="text" name="lastname" id="lastname" class="form-control">
                 </div>
             </div>
 
             <!--Password-->
-            <div class="row form-group input-group">
-                <label for="password" class="col-sm-4">Password: </label>
-                <div class="col-sm-8">
+            <div class="row form-group input-group col-sm-12">
+                <label for="password" class="col-sm-2">Password: </label>
+                <div class="col-sm-10">
                     <input type="password" name="password" id="password" class="form-control">
                 </div>
             </div>
