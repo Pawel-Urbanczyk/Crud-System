@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37e61759-1596-49b2-ace4-acfd8841fe3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/reg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/insert.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/signup.php" afterPath="$PROJECT_DIR$/user/signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/insert.php" afterPath="$PROJECT_DIR$/scripts/insert.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +38,25 @@
       <file leaf-file-name="insert.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/insert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="483">
+              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding>
+                <marker date="1514328195455" expanded="true" signature="287:323" ph="SELECT * FRO... signup" />
+                <marker date="1514328195455" expanded="true" signature="287:324" ph="SELECT * FRO... signup" />
+                <marker date="1514328195455" expanded="true" signature="287:332" ph="SELECT * FRO... signup" />
+                <marker date="1514328195455" expanded="true" signature="287:333" ph="SELECT * FRO... signup" />
+                <marker date="1514328195455" expanded="true" signature="629:837" ph="..." />
+                <marker date="1514328195455" expanded="true" signature="727:734" ph="×" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -148,6 +161,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crud" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -248,7 +275,7 @@
       <option name="presentableId" value="Default" />
       <updated>1513863092910</updated>
       <workItem from="1513863094125" duration="8903000" />
-      <workItem from="1514288255454" duration="8924000" />
+      <workItem from="1514288255454" duration="10420000" />
     </task>
     <task id="LOCAL-00001" summary="Połączenie z baza danych.">
       <created>1513864363236</created>
@@ -278,11 +305,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514295117142</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dodanie pligu reg.js z walidacja formularza po stronie klienta, dodanie pliku insert.php dodajacego dane do bazy danych.">
+      <created>1514326539773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514326539773</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17827000" />
+    <option name="totallyTimeSpent" value="19323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -318,7 +352,8 @@
     <MESSAGE value="Podniana linków bootstrapa na pliki, wprowadzenie includes'ów, dodanie formularza rejestracji." />
     <MESSAGE value="Ostylowanie formularza, do poprawy" />
     <MESSAGE value="Poprawiono ostylowanie formularza" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawiono ostylowanie formularza" />
+    <MESSAGE value="Dodanie pligu reg.js z walidacja formularza po stronie klienta, dodanie pliku insert.php dodajacego dane do bazy danych." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie pligu reg.js z walidacja formularza po stronie klienta, dodanie pliku insert.php dodajacego dane do bazy danych." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -351,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -369,6 +397,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/reg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -390,27 +443,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/reg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="483">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <marker date="1514328195455" expanded="true" signature="287:323" ph="SELECT * FRO... signup" />
+            <marker date="1514328195455" expanded="true" signature="287:324" ph="SELECT * FRO... signup" />
+            <marker date="1514328195455" expanded="true" signature="287:332" ph="SELECT * FRO... signup" />
+            <marker date="1514328195455" expanded="true" signature="287:333" ph="SELECT * FRO... signup" />
+            <marker date="1514328195455" expanded="true" signature="629:837" ph="..." />
+            <marker date="1514328195455" expanded="true" signature="727:734" ph="×" />
+          </folding>
         </state>
       </provider>
     </entry>
